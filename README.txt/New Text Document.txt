@@ -1,0 +1,13 @@
+# Instructions to run the project
+
+1. Extract the zip file to any folder.
+2. Install required packages:
+   pip install -r requirements.txt
+   (or manually install: streamlit, fastapi, uvicorn, pandas, scikit-learn)
+3. Run backend:
+   cd Backend
+   python -m uvicorn backend:app --reload
+4. Run frontend:
+   cd ../Frontend
+   streamlit run app.py
+5. Open Streamlit in the browser and use the app.
